@@ -1,0 +1,56 @@
+﻿<%@ Master Language="VB" CodeFile="LmontanoPage.master.vb" Inherits="LmontanoPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+	<meta charset="utf-8" />			
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>	
+    <script src="Bootstrap/js/responsive.js"></script>
+	<script src="Bootstrap/js/bootstrap.min.js"></script>
+	<%--<title>Limontano</title>--%>	
+	<asp:ContentPlaceHolder ID="head" runat="server">
+
+	</asp:ContentPlaceHolder>
+</head>
+<body  class="fondo">
+	<form id="form1" runat="server">
+	<!-- Navbar begin -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container" >          
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>           
+                    <a class="navbar-brand" href="Denuncias.aspx">
+                    <%--<img alt="Brand" src="..." >--%>
+                        <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> 
+                        Solutia Intelligence
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                    <%--<li><a href="Default.aspx">Inicio</a></li>--%>                   
+                    <li><a href="CodeGenerator.aspx">Generador QR</a></li>
+                     <li><a href="Denuncias.aspx">Denuncias</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">    				                                    
+						<li>	
+							<asp:LinkButton ID="ButtonSalir" runat="server" CssClass="btn" onclick="ButtonSalir_Click">
+								Cerrar Sesion  <span aria-hidden="true" class="glyphicon glyphicon-log-out"></span>
+							</asp:LinkButton>
+						</li>
+                    </ul>
+                </div>
+            </div><!-- Container-->
+        </nav>
+	<!-- Navbar ends -->
+	<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+	</asp:ContentPlaceHolder>
+	</form>
+</body>
+</html>

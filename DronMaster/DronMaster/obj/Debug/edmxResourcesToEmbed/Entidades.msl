@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DroidikaModelStoreContainer" CdmEntityContainer="DroidikaEntities">
+    <EntitySetMapping Name="dCatCameras">
+      <EntityTypeMapping TypeName="DroidikaModel.dCatCameras">
+        <MappingFragment StoreEntitySet="dCatCameras">
+          <ScalarProperty Name="idCamera" ColumnName="idCamera" />
+          <ScalarProperty Name="brand" ColumnName="brand" />
+          <ScalarProperty Name="model" ColumnName="model" />
+          <ScalarProperty Name="img" ColumnName="img" />
+          <ScalarProperty Name="costMx" ColumnName="costMx" />
+          <ScalarProperty Name="costUsd" ColumnName="costUsd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dCatDrones">
+      <EntityTypeMapping TypeName="DroidikaModel.dCatDrones">
+        <MappingFragment StoreEntitySet="dCatDrones">
+          <ScalarProperty Name="idCatDrones" ColumnName="idCatDrones" />
+          <ScalarProperty Name="brand" ColumnName="brand" />
+          <ScalarProperty Name="model" ColumnName="model" />
+          <ScalarProperty Name="img" ColumnName="img" />
+          <ScalarProperty Name="costMx" ColumnName="costMx" />
+          <ScalarProperty Name="costUsd" ColumnName="costUsd" />
+          <ScalarProperty Name="flightTime" ColumnName="flightTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dDrones">
+      <EntityTypeMapping TypeName="DroidikaModel.dDrones">
+        <MappingFragment StoreEntitySet="dDrones">
+          <ScalarProperty Name="idDrone" ColumnName="idDrone" />
+          <ScalarProperty Name="alias" ColumnName="alias" />
+          <ScalarProperty Name="brand" ColumnName="brand" />
+          <ScalarProperty Name="model" ColumnName="model" />
+          <ScalarProperty Name="img" ColumnName="img" />
+          <ScalarProperty Name="costMx" ColumnName="costMx" />
+          <ScalarProperty Name="costUsd" ColumnName="costUsd" />
+          <ScalarProperty Name="flightTime" ColumnName="flightTime" />
+          <ScalarProperty Name="manufactureYear" ColumnName="manufactureYear" />
+          <ScalarProperty Name="cameraBrand" ColumnName="cameraBrand" />
+          <ScalarProperty Name="cameraModel" ColumnName="cameraModel" />
+          <ScalarProperty Name="droneSerial" ColumnName="droneSerial" />
+          <ScalarProperty Name="cameraSerial" ColumnName="cameraSerial" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dFlightLogs">
+      <EntityTypeMapping TypeName="DroidikaModel.dFlightLogs">
+        <MappingFragment StoreEntitySet="dFlightLogs">
+          <ScalarProperty Name="idVuelo" ColumnName="idVuelo" />
+          <ScalarProperty Name="pilotEmail" ColumnName="pilotEmail" />
+          <ScalarProperty Name="droneAlias" ColumnName="droneAlias" />
+          <ScalarProperty Name="positionX" ColumnName="positionX" />
+          <ScalarProperty Name="positionY" ColumnName="positionY" />
+          <ScalarProperty Name="droneFlightTime" ColumnName="droneFlightTime" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="finishDate" ColumnName="finishDate" />
+          <ScalarProperty Name="totalFlighTime" ColumnName="totalFlighTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dPilots">
+      <EntityTypeMapping TypeName="DroidikaModel.dPilots">
+        <MappingFragment StoreEntitySet="dPilots">
+          <ScalarProperty Name="idPilots" ColumnName="idPilots" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="fstName" ColumnName="fstName" />
+          <ScalarProperty Name="lstName" ColumnName="lstName" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="certificate" ColumnName="certificate" />
+          <ScalarProperty Name="certificateDate" ColumnName="certificateDate" />
+          <ScalarProperty Name="sinisters" ColumnName="sinisters" />
+          <ScalarProperty Name="flightTime" ColumnName="flightTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dPolicies">
+      <EntityTypeMapping TypeName="DroidikaModel.dPolicies">
+        <MappingFragment StoreEntitySet="dPolicies">
+          <ScalarProperty Name="idPolicy" ColumnName="idPolicy" />
+          <ScalarProperty Name="droneAlias" ColumnName="droneAlias" />
+          <ScalarProperty Name="manufactureYear" ColumnName="manufactureYear" />
+          <ScalarProperty Name="pilotEmail" ColumnName="pilotEmail" />
+          <ScalarProperty Name="droneValue" ColumnName="droneValue" />
+          <ScalarProperty Name="droneNetPremium" ColumnName="droneNetPremium" />
+          <ScalarProperty Name="civilRes" ColumnName="civilRes" />
+          <ScalarProperty Name="civilNetPremium" ColumnName="civilNetPremium" />
+          <ScalarProperty Name="custDroneNetPremium" ColumnName="custDroneNetPremium" />
+          <ScalarProperty Name="custCivilNetPremium" ColumnName="custCivilNetPremium" />
+          <ScalarProperty Name="durationDays" ColumnName="durationDays" />
+          <ScalarProperty Name="policyPriceUsd" ColumnName="policyPriceUsd" />
+          <ScalarProperty Name="policyPurchaseDate" ColumnName="policyPurchaseDate" />
+          <ScalarProperty Name="policyExpirationDate" ColumnName="policyExpirationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

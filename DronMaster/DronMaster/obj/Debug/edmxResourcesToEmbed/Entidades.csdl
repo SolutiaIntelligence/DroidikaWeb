@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DroidikaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="dCatCameras">
+    <Key>
+      <PropertyRef Name="idCamera" />
+    </Key>
+    <Property Name="idCamera" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="brand" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="model" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="img" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="costMx" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="costUsd" Type="Decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="dCatDrones">
+    <Key>
+      <PropertyRef Name="idCatDrones" />
+    </Key>
+    <Property Name="idCatDrones" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="brand" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="model" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="img" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="costMx" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="costUsd" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="flightTime" Type="Int32" />
+  </EntityType>
+  <EntityType Name="dDrones">
+    <Key>
+      <PropertyRef Name="idDrone" />
+    </Key>
+    <Property Name="idDrone" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="alias" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="brand" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="model" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="img" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="costMx" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="costUsd" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="flightTime" Type="Int32" />
+    <Property Name="manufactureYear" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="cameraBrand" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="cameraModel" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="droneSerial" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="cameraSerial" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="dFlightLogs">
+    <Key>
+      <PropertyRef Name="idVuelo" />
+    </Key>
+    <Property Name="idVuelo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="pilotEmail" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="droneAlias" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="positionX" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="positionY" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="droneFlightTime" Type="Int32" />
+    <Property Name="startDate" Type="DateTime" Precision="0" />
+    <Property Name="finishDate" Type="DateTime" Precision="0" />
+    <Property Name="totalFlighTime" Type="Decimal" Precision="3" Scale="2" />
+  </EntityType>
+  <EntityType Name="dPilots">
+    <Key>
+      <PropertyRef Name="idPilots" />
+    </Key>
+    <Property Name="idPilots" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fstName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="lstName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="certificate" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="certificateDate" Type="DateTime" Precision="0" />
+    <Property Name="sinisters" Type="Int32" />
+    <Property Name="flightTime" Type="Int32" />
+  </EntityType>
+  <EntityType Name="dPolicies">
+    <Key>
+      <PropertyRef Name="idPolicy" />
+    </Key>
+    <Property Name="idPolicy" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="droneAlias" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="manufactureYear" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="pilotEmail" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="droneValue" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="droneNetPremium" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="civilRes" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="civilNetPremium" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="custDroneNetPremium" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="custCivilNetPremium" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="durationDays" Type="Int32" />
+    <Property Name="policyPriceUsd" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="policyPurchaseDate" Type="DateTime" Precision="0" />
+    <Property Name="policyExpirationDate" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityContainer Name="DroidikaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="dCatCameras" EntityType="Self.dCatCameras" />
+    <EntitySet Name="dCatDrones" EntityType="Self.dCatDrones" />
+    <EntitySet Name="dDrones" EntityType="Self.dDrones" />
+    <EntitySet Name="dFlightLogs" EntityType="Self.dFlightLogs" />
+    <EntitySet Name="dPilots" EntityType="Self.dPilots" />
+    <EntitySet Name="dPolicies" EntityType="Self.dPolicies" />
+  </EntityContainer>
+</Schema>

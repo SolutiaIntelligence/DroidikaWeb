@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Droidika" Class="DroidikaContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=localhost;Initial Catalog=Droidika;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DroidikaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.dPolicies" Member="dPolicies">
+    <Type Name="dPolicy">
+      <Column Name="idPolicy" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="droneAlias" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="manufactureYear" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="pilotEmail" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="droneValue" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="droneNetPremium" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="civilRes" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="civilNetPremium" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="custDroneNetPremium" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="custCivilNetPremium" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="durationDays" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="policyPriceUsd" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="policyPurchaseDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="policyExpirationDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dPilots" Member="dPilots">
+    <Type Name="dPilot">
+      <Column Name="idPilots" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="fstName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="lstName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="certificate" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="certificateDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="sinisters" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="flightTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dFlightLogs" Member="dFlightLogs">
+    <Type Name="dFlightLog">
+      <Column Name="idVuelo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="pilotEmail" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="droneAlias" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="positionX" Type="System.String" DbType="VarChar(70)" CanBeNull="true" />
+      <Column Name="positionY" Type="System.String" DbType="VarChar(70)" CanBeNull="true" />
+      <Column Name="droneFlightTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="startDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="finishDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="totalFlighTime" Type="System.Decimal" DbType="Decimal(3,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dDrones" Member="dDrones">
+    <Type Name="dDrone">
+      <Column Name="idDrone" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="alias" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="brand" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="model" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="img" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="costMx" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="costUsd" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="flightTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="manufactureYear" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="cameraBrand" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cameraModel" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="droneSerial" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="cameraSerial" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dCatDrones" Member="dCatDrones">
+    <Type Name="dCatDrone">
+      <Column Name="idCatDrones" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="brand" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="model" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="img" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="costMx" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="costUsd" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="flightTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dCatCameras" Member="dCatCameras">
+    <Type Name="dCatCamera">
+      <Column Name="idCamera" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="brand" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="model" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="img" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="costMx" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="costUsd" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

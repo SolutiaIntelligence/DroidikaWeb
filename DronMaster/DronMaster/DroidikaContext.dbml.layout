@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 13.5, 8.5" name="DroidikaContext">
+  <DataContextMoniker Name="/DroidikaContextDataContext" />
+  <nestedChildShapes>
+    <classShape Id="cf0d8e08-85dd-42ee-9cfa-1379bb3d6090" absoluteBounds="0.75, 0.75, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/DroidikaContextDataContext/dPolicy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c3a2f066-af01-40c3-ab86-ab8189fbf949" absoluteBounds="0.765, 1.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bb0915e6-a8e6-4537-b854-031d3d3c2ccb" absoluteBounds="3.75, 0.75, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/DroidikaContextDataContext/dPilot1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="da4c74ea-93eb-46c2-a805-9aabbccd9348" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6156d7b9-bc58-49d0-b505-6e63c44ac835" absoluteBounds="1, 4.75, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/DroidikaContextDataContext/dFlightLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8141cfb4-fcdd-4b0a-b3c7-21e674191500" absoluteBounds="1.0150000000000001, 5.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ead0c539-70cb-4913-95c1-bc3a2505f3f9" absoluteBounds="3.625, 3.875, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/DroidikaContextDataContext/dDrone" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b72343f0-0181-4d02-8baf-6fce1296ff52" absoluteBounds="3.6399999999999997, 4.335, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8413384a-e4af-43b4-ac5b-82946fe6252d" absoluteBounds="6.5, 3.875, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/DroidikaContextDataContext/dCertificate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="46a82c90-586d-471d-a9a5-3219b447ef4c" absoluteBounds="6.5150000000000006, 4.3350000000000009, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1cf4d50d-17ef-42c6-a7b7-5e1c721b5d3a" absoluteBounds="9, 5.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DroidikaContextDataContext/dCatDrone1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f2ee7f1-fecb-4baa-a985-dd809e9e0373" absoluteBounds="9.015, 6.3350000000000009, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="77089ecd-e686-459b-9e7b-b4c4512e3519" absoluteBounds="9, 3.625, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/DroidikaContextDataContext/dCatCamera1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8bceb0ca-3017-4160-98a6-7a4e72f11f1e" absoluteBounds="9.015, 4.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b9b843d7-adb5-4027-ac01-43e529d8c129" absoluteBounds="6.625, 5.75, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/DroidikaContextDataContext/dAdministrator" />
+      <nestedChildShapes>
+        <elementListCompartment Id="72003e65-c34d-4c71-b86a-c05cdb3d9af1" absoluteBounds="6.6400000000000006, 6.2100000000000009, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b1178b00-02f8-46dd-8633-fd5b0bb44706" absoluteBounds="6.375, 0.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/DroidikaContextDataContext/dPilot" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e9c6117d-a8e9-4788-91b3-ab19760799d9" absoluteBounds="6.39, 1.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e7aebda8-0360-4303-a3bf-8a8a42fb7517" absoluteBounds="11.25, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DroidikaContextDataContext/dCatCamera" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4776612c-ee68-43ca-9ed1-c278f642079b" absoluteBounds="11.265, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a54695e5-a080-4ff7-8ef5-4be050bbc079" absoluteBounds="8.625, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DroidikaContextDataContext/dCatDrone" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bb9953e1-f550-4597-87ea-1a9e787e89b3" absoluteBounds="8.64, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

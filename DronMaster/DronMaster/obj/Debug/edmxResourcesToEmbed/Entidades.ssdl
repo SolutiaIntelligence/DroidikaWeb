@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DroidikaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="dCatCameras">
+    <Key>
+      <PropertyRef Name="idCamera" />
+    </Key>
+    <Property Name="idCamera" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="brand" Type="varchar" MaxLength="15" />
+    <Property Name="model" Type="varchar" MaxLength="40" />
+    <Property Name="img" Type="varchar" MaxLength="100" />
+    <Property Name="costMx" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="costUsd" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="dCatDrones">
+    <Key>
+      <PropertyRef Name="idCatDrones" />
+    </Key>
+    <Property Name="idCatDrones" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="brand" Type="varchar" MaxLength="15" />
+    <Property Name="model" Type="varchar" MaxLength="40" />
+    <Property Name="img" Type="varchar" MaxLength="100" />
+    <Property Name="costMx" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="costUsd" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="flightTime" Type="int" />
+  </EntityType>
+  <EntityType Name="dDrones">
+    <Key>
+      <PropertyRef Name="idDrone" />
+    </Key>
+    <Property Name="idDrone" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="alias" Type="varchar" MaxLength="16" />
+    <Property Name="brand" Type="varchar" MaxLength="15" />
+    <Property Name="model" Type="varchar" MaxLength="40" />
+    <Property Name="img" Type="varchar" MaxLength="100" />
+    <Property Name="costMx" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="costUsd" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="flightTime" Type="int" />
+    <Property Name="manufactureYear" Type="varchar" MaxLength="4" />
+    <Property Name="cameraBrand" Type="varchar" MaxLength="10" />
+    <Property Name="cameraModel" Type="varchar" MaxLength="30" />
+    <Property Name="droneSerial" Type="varchar" MaxLength="100" />
+    <Property Name="cameraSerial" Type="varchar" MaxLength="100" />
+    <Property Name="email" Type="varchar" MaxLength="40" />
+  </EntityType>
+  <EntityType Name="dFlightLogs">
+    <Key>
+      <PropertyRef Name="idVuelo" />
+    </Key>
+    <Property Name="idVuelo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="pilotEmail" Type="varchar" MaxLength="30" />
+    <Property Name="droneAlias" Type="varchar" MaxLength="30" />
+    <Property Name="positionX" Type="varchar" MaxLength="70" />
+    <Property Name="positionY" Type="varchar" MaxLength="70" />
+    <Property Name="droneFlightTime" Type="int" />
+    <Property Name="startDate" Type="date" />
+    <Property Name="finishDate" Type="date" />
+    <Property Name="totalFlighTime" Type="decimal" Precision="3" Scale="2" />
+  </EntityType>
+  <EntityType Name="dPilots">
+    <Key>
+      <PropertyRef Name="idPilots" />
+    </Key>
+    <Property Name="idPilots" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="fstName" Type="varchar" MaxLength="30" />
+    <Property Name="lstName" Type="varchar" MaxLength="30" />
+    <Property Name="password" Type="varchar" MaxLength="12" />
+    <Property Name="certificate" Type="char" MaxLength="1" />
+    <Property Name="certificateDate" Type="date" />
+    <Property Name="sinisters" Type="int" />
+    <Property Name="flightTime" Type="int" />
+  </EntityType>
+  <EntityType Name="dPolicies">
+    <Key>
+      <PropertyRef Name="idPolicy" />
+    </Key>
+    <Property Name="idPolicy" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="droneAlias" Type="varchar" MaxLength="16" />
+    <Property Name="manufactureYear" Type="varchar" MaxLength="4" />
+    <Property Name="pilotEmail" Type="varchar" MaxLength="20" />
+    <Property Name="droneValue" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="droneNetPremium" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="civilRes" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="civilNetPremium" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="custDroneNetPremium" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="custCivilNetPremium" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="durationDays" Type="int" />
+    <Property Name="policyPriceUsd" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="policyPurchaseDate" Type="date" />
+    <Property Name="policyExpirationDate" Type="date" />
+  </EntityType>
+  <EntityContainer Name="DroidikaModelStoreContainer">
+    <EntitySet Name="dCatCameras" EntityType="Self.dCatCameras" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dCatDrones" EntityType="Self.dCatDrones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dDrones" EntityType="Self.dDrones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dFlightLogs" EntityType="Self.dFlightLogs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dPilots" EntityType="Self.dPilots" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dPolicies" EntityType="Self.dPolicies" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

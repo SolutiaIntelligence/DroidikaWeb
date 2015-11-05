@@ -1,0 +1,184 @@
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DronMaster.dll.config
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DronMaster.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DronMaster.pdb
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\Antlr3.Runtime.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DotNetOpenAuth.AspNet.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DotNetOpenAuth.Core.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\EntityFramework.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\Microsoft.Web.Infrastructure.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\System.Web.Optimization.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\System.Web.Providers.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\WebGrease.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\EntityFramework.xml
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DotNetOpenAuth.Core.xml
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.xml
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.xml
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\DotNetOpenAuth.AspNet.xml
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\obj\Debug\DronMaster.csprojResolveAssemblyReference.cache
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\obj\Debug\DronMaster.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\obj\Debug\DronMaster.pdb
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\QRCoder.dll
+c:\users\miguel\documents\visual studio 2013\Projects\DronMaster\DronMaster\bin\QRCoder.pdb
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DronMaster.dll.config
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DronMaster.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DronMaster.pdb
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Antlr3.Runtime.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.Core.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\EntityFramework.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\QRCoder.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\System.Web.Optimization.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\System.Web.Providers.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\WebGrease.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\QRCoder.pdb
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\EntityFramework.xml
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.Core.xml
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\obj\Debug\DronMaster.dll
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\obj\Debug\DronMaster.pdb
+C:\Users\MIguel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\obj\Debug\DronMaster.csprojResolveAssemblyReference.cache
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DronMaster.dll.config
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DronMaster.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DronMaster.pdb
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Antlr3.Runtime.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.Core.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\EntityFramework.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\QRCoder.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\System.Web.Optimization.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\System.Web.Providers.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\WebGrease.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\QRCoder.pdb
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\EntityFramework.xml
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.Core.xml
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\obj\Debug\DronMaster.dll
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\obj\Debug\DronMaster.pdb
+C:\Users\MiguelAngel\Google Drive\Proyectos\Cartodata\DronMaster\DronMaster\obj\Debug\DronMaster.csprojResolveAssemblyReference.cache
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DronMaster.dll.config
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DronMaster.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DronMaster.pdb
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\Antlr3.Runtime.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\AspNet.ScriptManager.jQuery.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DotNetOpenAuth.AspNet.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DotNetOpenAuth.Core.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DotNetOpenAuth.OAuth.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DotNetOpenAuth.OpenId.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\EntityFramework.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\Microsoft.Web.Infrastructure.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\QRCoder.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\System.Web.Optimization.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\System.Web.Providers.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\WebGrease.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\QRCoder.pdb
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\EntityFramework.xml
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DotNetOpenAuth.Core.xml
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DotNetOpenAuth.OAuth.xml
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DotNetOpenAuth.OpenId.xml
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\DotNetOpenAuth.AspNet.xml
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\obj\Debug\DronMaster.csprojResolveAssemblyReference.cache
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\obj\Debug\DronMaster.dll
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\obj\Debug\DronMaster.pdb
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\obj\Debug\RdlCompile.cache
+D:\Documentos\GoogleDrive\Proyectos\Cartodata\DronMaster - copia\DronMaster\obj\Debug\RdlCompile.compiled
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DronMaster.dll.config
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DronMaster.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DronMaster.pdb
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\Antlr3.Runtime.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\AspNet.ScriptManager.jQuery.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DotNetOpenAuth.AspNet.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DotNetOpenAuth.Core.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\EntityFramework.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\Microsoft.Web.Infrastructure.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\QRCoder.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\System.Web.Optimization.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\System.Web.Providers.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\WebGrease.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\QRCoder.pdb
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\EntityFramework.xml
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DotNetOpenAuth.Core.xml
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.xml
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.xml
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\DotNetOpenAuth.AspNet.xml
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\obj\Debug\DronMaster.csprojResolveAssemblyReference.cache
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\obj\Debug\RdlCompile.cache
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\obj\Debug\RdlCompile.compiled
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\obj\Debug\DronMaster.dll
+D:\Documentos\Dropbox\Solutia Inteligence\Git Desarrollo\DroidikaWeb\DronMaster\DronMaster\obj\Debug\DronMaster.pdb
